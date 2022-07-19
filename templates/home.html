@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<img src="static/images/bgImage.jpg" alt="Car" style="width:100%">
+
+    <div class="w3-card-4 w3-margin">
+
+        <header class="w3-container w3-blue">
+          <h1>Introduction</h1>
+        </header>
+        
+        <div class="w3-container">
+          <p>
+            Heart rate (HR) monitoring is indispensable for several real-world scenarios, especially when acquired in a non-contact manner. It can be accomplished using face videos acquired from ubiquitous cameras in an inexpensive, non-invasive and unobtrusive manner. But the HR monitoring can be erroneous when the video contains facial expressions, out-of-plane movements, change in camera parameters (like focus) and variations in environmental factors (like illumination). The proposed system mitigates these problems for improving the HR monitoring. For this, it defines an adaptive temporal signal selection mechanism which identifies and removes the facial areas affected by facial expressions. Moreover, it introduces a novel post-processing mechanism which perform HR monitoring by utilizing face reconstruction and quality. The post-processing is used when the face video contains facial movements. Experimental results reveal that incorporation of adaptive temporal signal selection and post-processing mechanisms can significantly improve the HR monitoring. It depicts that the Pearson correlation between actual and estimated HR is 0.95 while the average absolute error is 1.63 beats per minute, which indicates that the proposed system provides good HR monitoring.
+          </p>
+        </div>
+        
+        <footer class="w3-container w3-blue">
+          <h5></h5>
+        </footer>
+        
+        </div>
+
+        <div class="w3-card-4 w3-margin">
+
+            <header class="w3-container w3-blue">
+              <h1>About The Project</h1>
+            </header>
+            
+            <div class="w3-container">
+              <p>
+                Heart rate is one of the major predisposing factors for cardiovascular diseases.
+                Standard methods for measuring heart rate are Electrocardiogram and Pulse
+                oximeter sensors. However, Electrocardiogram requires skin-contact using gel
+                patches that can cause irritation to the patients. Pulse oximeter sensors, when
+                attached to fingertips or earlobes for long time durations, can also cause pain.
+                Therefore, this paper presents an innovative heart rate monitoring
+                methodology that measures person’s heart rate using their facial image.
+                Videos captured using the camera, were separated into Red, Green and Blue
+                (RGB) color channels which, were then converted to the Hue, Saturation and
+                Intensity (HSI) color model
+              </p>
+            </div>
+            
+            <footer class="w3-container w3-blue">
+              <h5></h5>
+            </footer>
+            
+            </div>
+
+    <div class="w3-container w3-center">
+        <h2>Architecture Diagram</h2>
+        <img src="static/images/block.png" alt="car" style="width:100%">
+        <p>Figure1</p>
+      </div>
+
+{% endblock %}
